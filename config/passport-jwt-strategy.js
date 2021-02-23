@@ -13,7 +13,7 @@ passport.use(
       if (user) {
         return done(null, user);
       } else {
-        return done(null, flase);
+        return done(null, false);
       }
     });
   })
