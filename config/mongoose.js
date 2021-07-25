@@ -3,10 +3,11 @@ const mongoose = require("mongoose");
 mongoose.set("useCreateIndex", true);
 ///////////  use of useNewUrlParser and useUnifiedTopology  //////////
 ///////// mongodb://localhost:27017/biet
-mongoose.connect("mongodb+srv://anshita:pipdIq5fqHCYrgO7@cluster0.adtj0.mongodb.net/codeial_production?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://Aditya:8Epj8lJJdFbuopTy@cluster0.8wxf0.mongodb.net/biet_backend?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
+
 
 const db = mongoose.connection;
 
